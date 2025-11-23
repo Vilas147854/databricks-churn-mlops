@@ -72,3 +72,4 @@ Raw CSV → Bronze Table
        scoring_timestamp
 Screen shots for proof of work 
 Creation of Mlflow pipeline :<img width="1910" height="903" alt="image" src="https://github.com/user-attachments/assets/53d54132-284c-49df-a47e-6dcbb3fb8d98" />
+Link of github repo and creation of notebooks <img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/c6477fe4-2be0-4091-996e-bef62617000c" />
