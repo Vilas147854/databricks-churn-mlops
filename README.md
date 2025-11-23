@@ -2,19 +2,19 @@
 
 This project implements a complete production-style MLOps workflow using Databricks Community Edition, covering:
 
-Data ingestion (Bronze)
+       Data ingestion (Bronze)
 
-Data cleaning & transformations (Silver)
+       Data cleaning & transformations (Silver)
 
-Feature engineering tables
+       Feature engineering tables
 
-ML model training with MLflow tracking
+       ML model training with MLflow tracking
 
-Batch inference with Delta Gold table
+       Batch inference with Delta Gold table
 
-GitHub-integrated development workflow
+       GitHub-integrated development workflow
 
-Automated pipeline orchestration using Databricks Jobs
+       Automated pipeline orchestration using Databricks Jobs
 
 🏗️ Architecture
 Raw CSV → Bronze Table
@@ -33,44 +33,42 @@ Raw CSV → Bronze Table
 
 🔧 Technologies Used
 
-Databricks Community Edition
+       Databricks Community Edition
 
-Spark / PySpark
+       Spark / PySpark
 
-MLflow Tracking
+       MLflow Tracking
 
-Delta Lake (Bronze/Silver/Gold)
+       Delta Lake (Bronze/Silver/Gold)
 
-GitHub Repos Integration
+       GitHub Repos Integration
 
-Scikit-learn
+       Scikit-learn
 
-Databricks Jobs (orchestration)
+       Databricks Jobs (orchestration)
 
 📊 Model Performance
 
-Best model: RandomForestClassifier
+       Best model: RandomForestClassifier
 
-Accuracy: ~0.80
+       Accuracy: ~0.80
 
-ROC AUC: ~0.84
+       ROC AUC: ~0.84
 
-Tracked under MLflow Run ID:
-
-cd36fb2b675e4cef86a1e0f1d26fb76c
+       Tracked under MLflow Run ID:cd36fb2b675e4cef86a1e0f1d26fb76c
 
 🧪 Batch Inference Output (Gold Table)
 
-Gold table: churn_mlo_mdb.gold_predictions
+       Gold table: churn_mlo_mdb.gold_predictions
 
-Includes:
+       Includes: All engineered features
 
-All engineered features
+       Predicted churn probability
 
-Predicted churn probability
+       Predicted label
 
-Predicted label
+       run_id (for lineage)
 
-run_id (for lineage)
-
-scoring_timestamp
+       scoring_timestamp
+Screen shots for proof of work 
+Creation of Mlflow pipeline :<img width="1910" height="903" alt="image" src="https://github.com/user-attachments/assets/53d54132-284c-49df-a47e-6dcbb3fb8d98" />
